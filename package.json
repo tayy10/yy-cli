@@ -1,0 +1,29 @@
+{
+  "name": "yy-cli",
+  "version": "1.0.0",
+  "description": "基于fis3的自用打包工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayy10/yy-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tayy10/yy-cli/issues"
+  },
+  "homepage": "https://github.com/tayy10/yy-cli#readme",
+  "bin": {
+    "yy": "bin/yy.js"
+  },
+  "dependencies": {
+    "fis-parser-less": "^0.1.3",
+    "fis3": "^3.0.6",
+    "fis3-hook-module": "^1.1.1",
+    "liftoff": "^2.1.0",
+    "minimist": "^1.1.1"
+  }
+}
